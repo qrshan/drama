@@ -22,6 +22,9 @@
 		18437FF31995D96600CF64D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18437FD21995D96600CF64D6 /* UIKit.framework */; };
 		18437FFB1995D96600CF64D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18437FF91995D96600CF64D6 /* InfoPlist.strings */; };
 		18437FFD1995D96600CF64D6 /* dramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18437FFC1995D96600CF64D6 /* dramaTests.m */; };
+		184380081995F85400CF64D6 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184380071995F85400CF64D6 /* SettingsTableViewController.m */; };
+		1843800B1995F87600CF64D6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843800A1995F87600CF64D6 /* FavoriteViewController.m */; };
+		1843800E1995F88900CF64D6 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843800D1995F88900CF64D6 /* ScheduleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		18437FF81995D96600CF64D6 /* dramaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dramaTests-Info.plist"; sourceTree = "<group>"; };
 		18437FFA1995D96600CF64D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18437FFC1995D96600CF64D6 /* dramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dramaTests.m; sourceTree = "<group>"; };
+		184380061995F85400CF64D6 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		184380071995F85400CF64D6 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		184380091995F87600CF64D6 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		1843800A1995F87600CF64D6 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		1843800C1995F88900CF64D6 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		1843800D1995F88900CF64D6 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +131,12 @@
 				18437FE71995D96600CF64D6 /* HomeViewController.m */,
 				18437FE91995D96600CF64D6 /* Images.xcassets */,
 				18437FD51995D96600CF64D6 /* Supporting Files */,
+				184380061995F85400CF64D6 /* SettingsTableViewController.h */,
+				184380071995F85400CF64D6 /* SettingsTableViewController.m */,
+				184380091995F87600CF64D6 /* FavoriteViewController.h */,
+				1843800A1995F87600CF64D6 /* FavoriteViewController.m */,
+				1843800C1995F88900CF64D6 /* ScheduleViewController.h */,
+				1843800D1995F88900CF64D6 /* ScheduleViewController.m */,
 			);
 			path = drama;
 			sourceTree = "<group>";
@@ -254,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843800B1995F87600CF64D6 /* FavoriteViewController.m in Sources */,
+				1843800E1995F88900CF64D6 /* ScheduleViewController.m in Sources */,
+				184380081995F85400CF64D6 /* SettingsTableViewController.m in Sources */,
 				18437FDB1995D96600CF64D6 /* main.m in Sources */,
 				18437FDF1995D96600CF64D6 /* HomeAppDelegate.m in Sources */,
 				18437FE81995D96600CF64D6 /* HomeViewController.m in Sources */,
@@ -471,6 +489,7 @@
 				184380021995D96600CF64D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184380031995D96600CF64D6 /* Build configuration list for PBXNativeTarget "dramaTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +498,7 @@
 				184380051995D96600CF64D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
