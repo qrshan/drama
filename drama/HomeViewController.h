@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property(nonatomic, retain)NSMutableDictionary *dramas;
+@property(nonatomic, retain)NSArray *datasource;
 
 @end

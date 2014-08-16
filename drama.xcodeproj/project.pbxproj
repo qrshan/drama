@@ -25,6 +25,11 @@
 		184380081995F85400CF64D6 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184380071995F85400CF64D6 /* SettingsTableViewController.m */; };
 		1843800B1995F87600CF64D6 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843800A1995F87600CF64D6 /* FavoriteViewController.m */; };
 		1843800E1995F88900CF64D6 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843800D1995F88900CF64D6 /* ScheduleViewController.m */; };
+		184380141996100300CF64D6 /* demo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184380101996100300CF64D6 /* demo_1.jpg */; };
+		184380151996100300CF64D6 /* demo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184380111996100300CF64D6 /* demo_2.jpg */; };
+		184380161996100300CF64D6 /* demo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184380121996100300CF64D6 /* demo_3.jpg */; };
+		184380171996100300CF64D6 /* demo_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 184380131996100300CF64D6 /* demo_4.png */; };
+		184380201996181600CF64D6 /* HomeParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843801F1996181600CF64D6 /* HomeParallaxCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,12 @@
 		1843800A1995F87600CF64D6 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
 		1843800C1995F88900CF64D6 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		1843800D1995F88900CF64D6 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		184380101996100300CF64D6 /* demo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_1.jpg; sourceTree = "<group>"; };
+		184380111996100300CF64D6 /* demo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_2.jpg; sourceTree = "<group>"; };
+		184380121996100300CF64D6 /* demo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_3.jpg; sourceTree = "<group>"; };
+		184380131996100300CF64D6 /* demo_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_4.png; sourceTree = "<group>"; };
+		1843801E1996181600CF64D6 /* HomeParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeParallaxCell.h; sourceTree = "<group>"; };
+		1843801F1996181600CF64D6 /* HomeParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeParallaxCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +134,7 @@
 		18437FD41995D96600CF64D6 /* drama */ = {
 			isa = PBXGroup;
 			children = (
+				1843800F19960FBE00CF64D6 /* Media */,
 				18437FDD1995D96600CF64D6 /* HomeAppDelegate.h */,
 				18437FDE1995D96600CF64D6 /* HomeAppDelegate.m */,
 				18437FE01995D96600CF64D6 /* Main_iPhone.storyboard */,
@@ -137,6 +149,8 @@
 				1843800A1995F87600CF64D6 /* FavoriteViewController.m */,
 				1843800C1995F88900CF64D6 /* ScheduleViewController.h */,
 				1843800D1995F88900CF64D6 /* ScheduleViewController.m */,
+				1843801E1996181600CF64D6 /* HomeParallaxCell.h */,
+				1843801F1996181600CF64D6 /* HomeParallaxCell.m */,
 			);
 			path = drama;
 			sourceTree = "<group>";
@@ -168,6 +182,17 @@
 				18437FF91995D96600CF64D6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1843800F19960FBE00CF64D6 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				184380101996100300CF64D6 /* demo_1.jpg */,
+				184380111996100300CF64D6 /* demo_2.jpg */,
+				184380121996100300CF64D6 /* demo_3.jpg */,
+				184380131996100300CF64D6 /* demo_4.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +274,12 @@
 			files = (
 				18437FE51995D96600CF64D6 /* Main_iPad.storyboard in Resources */,
 				18437FEA1995D96600CF64D6 /* Images.xcassets in Resources */,
+				184380161996100300CF64D6 /* demo_3.jpg in Resources */,
 				18437FE21995D96600CF64D6 /* Main_iPhone.storyboard in Resources */,
+				184380141996100300CF64D6 /* demo_1.jpg in Resources */,
+				184380171996100300CF64D6 /* demo_4.png in Resources */,
 				18437FD91995D96600CF64D6 /* InfoPlist.strings in Resources */,
+				184380151996100300CF64D6 /* demo_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +302,7 @@
 				1843800E1995F88900CF64D6 /* ScheduleViewController.m in Sources */,
 				184380081995F85400CF64D6 /* SettingsTableViewController.m in Sources */,
 				18437FDB1995D96600CF64D6 /* main.m in Sources */,
+				184380201996181600CF64D6 /* HomeParallaxCell.m in Sources */,
 				18437FDF1995D96600CF64D6 /* HomeAppDelegate.m in Sources */,
 				18437FE81995D96600CF64D6 /* HomeViewController.m in Sources */,
 			);
